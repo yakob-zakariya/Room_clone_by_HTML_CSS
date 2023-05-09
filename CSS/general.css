@@ -1,0 +1,48 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+.btn__primary{
+    background-color: rgba(239,45,33);
+    border-radius: 9px;
+}
+.heading-primary{
+    font-size: 32px;
+    /* margin-bottom: 18px; */
+}
+.heading-secondary{
+    font-size: 32px;
+}
+
+
+/* MOBILE */
+.btn-mobile-nav {
+    border: none;
+    background: none;
+    cursor: pointer;
+  
+    display: none;
+  }
+.icon-mobile-nav {
+    height: 4.8rem;
+    width: 4.8rem;
+    color:#fff
+  }
+  
+   .icon-mobile-nav[name="close-outline"] {
+     display: none; 
+  } 

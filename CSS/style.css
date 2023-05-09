@@ -1,0 +1,221 @@
+
+/* Navigation and hero section */
+.header{
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(rgba(34,34,34,0.6),rgba(34,34,34,0.6)),url(../image/room_hero_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 72px;
+}
+
+/* Navigation that will later be sticky when scorlled */
+.navigation-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    /* height: 64px; later to make it sticky */
+}
+
+.logo:link,
+.logo:visited{
+    font-size: 28px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+}
+
+.top-nav{
+    display: flex;
+    gap: 24px;
+    
+}
+.nav-links{
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 32px;
+    font-size:16px;
+    color:#fff;
+}
+/* hero text */
+.hero-container{
+    width: 80%;
+    position: absolute;
+
+    /* Relative to the parent */
+    left: 50%;
+    top: 70%;
+
+    /* relative to element itself */
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+   gap:20px;
+   padding:32px;
+   background-color: rgba(255,255,255,0.7);
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    
+    }
+input[type=text]{
+        padding: 16px;
+        flex-grow: 1;
+        border: none;
+        outline: none;
+        }
+.search_btn{
+background: none;
+border: none;
+cursor: pointer;
+color:#fff;
+background-color: rgba(239,45,33);
+padding:16px 32px;
+}
+.dots{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%,-50%
+    );
+}
+.dot{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border: none;
+    cursor: pointer;
+}
+.active{
+    background-color: rgba(239,45,33);
+}
+/* ********** */
+
+/* Section Explore */
+.explore{
+    margin-bottom: 64px;
+}
+.explore-header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:  20px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 350px; */
+    column-gap: 32px;
+    position: relative;
+
+}
+.card{
+    position: relative;
+    border-radius: 9px;
+    
+}
+.card_img{
+    width: 100%;
+    height: 100%
+   
+}
+.twon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 100;
+    color: #fff;
+    font-size: 32px;
+    /* font-weight: bold; */
+}
+
+.arrow_btn{
+    width: 48px;
+    height: 48px;
+    border: none;
+    color:rgba(239,45,33);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 32px;
+
+    position: absolute;
+    top: 50%;
+    
+}
+.arrow_btn:hover{
+    background-color: rgba(239,45,33);
+    color: #fff;
+}
+.right{
+    right: -2%;
+}
+.left{
+    left:-2%
+}
+
+
+/* ******* section best deal */
+.best-deals{
+    margin-bottom:72px;
+}
+.best_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 32px;
+    column-gap: 32px;
+}
+.best_card{
+    border: 1px solid black;
+}
+.best_card_img{
+    width: 100%;
+    height: auto;
+}
+.img_box{
+    position: relative;
+}
+.small_arrow_btn{
+    border:none;
+    cursor: pointer;
+    font-size: 36px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    background: none;
+    transform:translte(50%,-50%);
+
+}
+.best-text-box{
+    padding: 24px;
+    display: flex;
+    flex-direction:column;
+    gap: 16px;
+}
+
+
+/* ******* Footer */
+.footer{
+    background-color: #f7f7f7;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: rgba(239,45,33)
+}

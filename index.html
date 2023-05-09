@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Clone</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/general.css">
+
+    <link rel="stylesheet" href="CSS/queries.css">
+    <!-- adding script source to use some icons -->
+    
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
+    
+</head>
+<body>
+    <header class="header">
+        <div class="navigation-container">
+            <div >
+                <a class="logo" href="#">Room.et</a>
+            </div>
+            
+            <nav class="top-nav">
+                <a href="#" class="nav-links">Home</a>
+                <a href="#explore" class="nav-links">Explore</a>
+                <a href="sign-in.html" class="nav-links">Sign in</a>
+                <a href="sign-up.html" class="nav-links btn__primary">Sign up</a>
+            </nav>
+            <button class="btn-mobile-nav">
+                <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+                <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+              </button>
+
+        </div>
+            <div class="hero-container">
+              <h1 class='heading-primary'>
+                Latest reviews. Lowest prices.
+              </h1>
+              <p class="sub-heading">
+                let us help you find the right hotel for you.
+              </p>
+              <div class="search-box">
+                <form class="form" action="" method="get">
+                    <input type="text" name="search" placeholder="Search for City or Particular Hotel">
+                    <button class="search_btn" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+
+            <div class="dots">
+                <button class='dot '>&nbsp;</button>
+                <button class='dot active'>&nbsp;</button>
+                <button class='dot'>&nbsp;</button>
+                
+            </div>
+    </header>
+
+    <section class="explore" id="explore
+    ">
+        <div class="explore-header container">
+            <h2 class="heading-secondary"> Explore Destinations</h2>
+            <p class="subheading">
+                Show All
+            </p>
+        </div>
+        <div class="container cards">
+            <div class="card">
+                <a href="#">
+
+                <img class="card_img" src="image/addis1.jpg">
+            </a>
+                <p class="twon">Addis Ababa</p>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                <img class="card_img" src="image/bishoftu1.jpg" width="241" height="310">
+                </a>
+                <p class="twon">Bishotu</p>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                <img class="card_img" src="image/adma1.jpg" width="241" height="310">
+            </a>
+                <p class="twon">Adama</p>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                <img class="card_img" src="image/bahirdar.jpg" width="241" height="310">  </a>
+                <p class="twon">Bahir Dar</p>
+            </div>
+
+            <div class="card">
+                <a href="#">
+                    
+                <img class="card_img" src="image/langano.jpg" height="310">  </a>
+                <p class="twon"> Langannoo</p>
+            </div>
+
+            <button class="arrow_btn left">
+                &lt;
+            </button>
+
+            <button class="arrow_btn right">
+                &gt;
+            </button>
+        </div>
+    </section>
+
+    <section class="best-deals">
+<div class="container best_cards">
+        <div class="best_card">
+        <div class="img_box">
+            <img class="best_card_img" src="image/room1.jpg"> 
+            <button class="small_arrow_btn left">&lt;</button>
+            <button class='small_arrow_btn right'>
+                &gt;
+            </button>
+            <div class="dots">
+                <button class='dot '>&nbsp;</button>
+                <button class='dot active'>&nbsp;</button>
+                <button class='dot'>&nbsp;</button>
+                
+            </div>
+        </div>
+        <div class="best-text-box">
+            <p class="sub-heading">
+                📍ፊጋ አካባቢ ፣ አዲስ አበባ
+            </p>
+            <h4 class="best-heading">
+                Kefetew Guest House
+            </h4>
+            <p class="price">2505 ETB/night</p>
+            <p class="stars">*****(5)</p>
+        </div>
+             </div>
+        <div class="best_card">
+            <div class="img_box">
+                <img class="best_card_img" src="image/room1.jpg"> 
+                <button class="small_arrow_btn left">&lt;</button>
+                <button class='small_arrow_btn right'>
+                    &gt;
+                </button>
+                <div class="dots">
+                    <button class='dot '>&nbsp;</button>
+                    <button class='dot active'>&nbsp;</button>
+                    <button class='dot'>&nbsp;</button>
+                    
+                </div>
+            </div>
+            <div class="best-text-box">
+                <p class="sub-heading">
+                    📍ፊጋ አካባቢ ፣ አዲስ አበባ
+                </p>
+                <h4 class="best-heading">
+                    Kefetew Guest House
+                </h4>
+                <p class="price">2505 ETB/night</p>
+                <p class="stars">*****(5)</p>
+            </div>
+            </div>
+        
+        <div class="best_card">
+                <div class="img_box">
+                    <img class="best_card_img" src="image/room1.jpg"> 
+                    <button class="small_arrow_btn left">&lt;</button>
+                    <button class='small_arrow_btn right'>
+                        &gt;
+                    </button>
+                    <div class="dots">
+                        <button class='dot '>&nbsp;</button>
+                        <button class='dot active'>&nbsp;</button>
+                        <button class='dot'>&nbsp;</button>
+                        
+                    </div>
+                </div>
+                <div class="best-text-box">
+                    <p class="sub-heading">
+                        📍ፊጋ አካባቢ ፣ አዲስ አበባ
+                    </p>
+                    <h4 class="best-heading">
+                        Kefetew Guest House
+                    </h4>
+                    <p class="price">2505 ETB/night</p>
+                    <p class="stars">*****(5)</p>
+                </div>
+            </div>
+        <div class="best_card">
+                    <div class="img_box">
+                        <img class="best_card_img" src="image/room1.jpg"> 
+                        <button class="small_arrow_btn left">&lt;</button>
+                        <button class='small_arrow_btn right'>
+                            &gt;
+                        </button>
+                        <div class="dots">
+                            <button class='dot '>&nbsp;</button>
+                            <button class='dot active'>&nbsp;</button>
+                            <button class='dot'>&nbsp;</button>
+                            
+                        </div>
+                    </div>
+                    <div class="best-text-box">
+                        <p class="sub-heading">
+                            📍ፊጋ አካባቢ ፣ አዲስ አበባ
+                        </p>
+                        <h4 class="best-heading">
+                            Kefetew Guest House
+                        </h4>
+                        <p class="price">2505 ETB/night</p>
+                        <p class="stars">*****(5)</p>
+                    </div>
+            </div>
+        <div class="best_card">
+                        <div class="img_box">
+                            <img class="best_card_img" src="image/room1.jpg"> 
+                            <button class="small_arrow_btn left">&lt;</button>
+                            <button class='small_arrow_btn right'>
+                                &gt;
+                            </button>
+                            <div class="dots">
+                                <button class='dot '>&nbsp;</button>
+                                <button class='dot active'>&nbsp;</button>
+                                <button class='dot'>&nbsp;</button>
+                                
+                            </div>
+                        </div>
+                        <div class="best-text-box">
+                            <p class="sub-heading">
+                                📍ፊጋ አካባቢ ፣ አዲስ አበባ
+                            </p>
+                            <h4 class="best-heading">
+                                Kefetew Guest House
+                            </h4>
+                            <p class="price">2505 ETB/night</p>
+                            <p class="stars">*****(5)</p>
+                        </div>
+            </div>
+        <div class="best_card">
+        
+        <div class="img_box">
+                                <img class="best_card_img" src="image/room1.jpg"> 
+                                <button class="small_arrow_btn left">&lt;</button>
+                                <button class='small_arrow_btn right'>
+                                    &gt;
+                                </button>
+                                <div class="dots">
+                                    <button class='dot '>&nbsp;</button>
+                                    <button class='dot active'>&nbsp;</button>
+                                    <button class='dot'>&nbsp;</button>
+                                    
+                                </div>
+            </div>
+        <div class="best-text-box">
+                                <p class="sub-heading">
+                                    📍ፊጋ አካባቢ ፣ አዲስ አበባ
+                                </p>
+                                <h4 class="best-heading">
+                                    Kefetew Guest House
+                                </h4>
+                                <p class="price">2505 ETB/night</p>
+                                <p class="stars">*****(5)</p>
+             </div>
+        </div>
+                        
+        <div class="best_card">
+          <div class="img_box">
+          <img class="best_card_img" src="image/room1.jpg"> 
+                                    <button class="small_arrow_btn left">&lt;</button>
+                                    <button class='small_arrow_btn right'>
+                                        &gt;
+                                    </button>
+                                    <div class="dots">
+                                        <button class='dot '>&nbsp;</button>
+                                        <button class='dot active'>&nbsp;</button>
+                                        <button class='dot'>&nbsp;</button>
+                                        
+                                    </div>
+                                </div>
+                                <div class="best-text-box">
+                                    <p class="sub-heading">
+                                        📍ፊጋ አካባቢ ፣ አዲስ አበባ
+                                    </p>
+                                    <h4 class="best-heading">
+                                        Kefetew Guest House
+                                    </h4>
+                                    <p class="price">2505 ETB/night</p>
+                                    <p class="stars">*****(5)</p>
+                                </div>
+            </div>
+        <div class="best_card">
+                                    <div class="img_box">
+                                        <img class="best_card_img" src="image/room1.jpg"> 
+                                        <button class="small_arrow_btn left">&lt;</button>
+                                        <button class='small_arrow_btn right'>
+                                            &gt;
+                                        </button>
+                                        <div class="dots">
+                                            <button class='dot '>&nbsp;</button>
+                                            <button class='dot active'>&nbsp;</button>
+                                            <button class='dot'>&nbsp;</button>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="best-text-box">
+                                        <p class="sub-heading">
+                                            📍ፊጋ አካባቢ ፣ አዲስ አበባ
+                                        </p>
+                                        <h4 class="best-heading">
+                                            Kefetew Guest House
+                                        </h4>
+                                        <p class="price">2505 ETB/night</p>
+                                        <p class="stars">*****(5)</p>
+                                    </div>
+            </div>
+        <div class="best_card">
+                                        <div class="img_box">
+                                            <img class="best_card_img" src="image/room1.jpg"> 
+                                            <button class="small_arrow_btn left">&lt;</button>
+                                            <button class='small_arrow_btn right'>
+                                                &gt;
+                                            </button>
+                                            <div class="dots">
+                                                <button class='dot '>&nbsp;</button>
+                                                <button class='dot active'>&nbsp;</button>
+                                                <button class='dot'>&nbsp;</button>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="best-text-box">
+                                            <p class="sub-heading">
+                                                📍ፊጋ አካባቢ ፣ አዲስ አበባ
+                                            </p>
+                                            <h4 class="best-heading">
+                                                Kefetew Guest House
+                                            </h4>
+                                            <p class="price">2505 ETB/night</p>
+                                            <p class="stars">*****(5)</p>
+                                        </div>
+                </div>
+    </div>
+</div>
+    </section>
+
+    <footer class="footer">
+        <div class="content">
+            <div>
+                <a href="#" class="logo">Room.et</a>
+            </div>
+            <div class="footer_links" style="color:rgb(239,45,33)">
+                <a href="#" class="nav-links">Home</a>
+                <a href="#" class="nav-links">Explore</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

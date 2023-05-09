@@ -1,0 +1,101 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.img-box{
+    background-image: url(../image/cta.jpg);
+    background-size:cover;
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    right:0;
+    top: 0;
+
+}
+.form-container{
+    width: 50%;
+    
+}
+.form{
+    width: 80%;
+    margin: 72px auto;
+
+}
+.logo1{
+    font-size: 24px;
+    color:rgba(239,45,33);
+    margin-bottom: 36px;
+    text-align: center;
+
+}
+.home-link:link,
+.home-link:visited{
+    text-decoration: none;
+    display: inline-block;
+}
+.form-head{
+    font-size: 32px;
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+.form-subheading{
+    font-size: 24px;
+    margin-bottom: 64px;
+}
+label{
+    font-size: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+input[type=text],
+input[type=submit],
+input[type=tel],
+input[type=email]{
+    width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+input[type=submit]{
+background-color: rgba(239,45,33);
+cursor: pointer;
+padding-bottom: 24px;
+padding-top: 24px;
+}
+
+.or{
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.orr{
+    font-size: 24px;
+    color: grey;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    margin-bottom: 36px;
+}
+.already{
+    font-size: 20px;
+    color: grey;
+}
+.log-in:link,
+.log-in:visited{
+color: rgba(239,45,33);
+font-size: 18px;
+}
+
